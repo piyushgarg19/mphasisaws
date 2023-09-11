@@ -19,6 +19,8 @@ public class ProductController {
 	ProductDAO dao;
 Logger log=Logger.getAnonymousLogger();
 
+//this is a demo line
+
 @RequestMapping("/")
 public ModelAndView displayHome(HttpServletRequest request,HttpServletResponse response) {
 	ModelAndView mv=new ModelAndView();
